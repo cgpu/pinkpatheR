@@ -1,0 +1,13 @@
+Package: pinkpatheR
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Christina",
+           family = "Chatzipantsiou",
+           role = c("aut", "cre"),
+           email = "chatzipantsiou@gmail.com")
+Description: A signle function package that helps retrieve the os-agnostic full path to the home directory.
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
