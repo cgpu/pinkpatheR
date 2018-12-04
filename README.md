@@ -3,7 +3,10 @@
 pinkpatheR
 ==========
 
-A single function R package, for retrieving the absolut path to home directory, in a user agnostic, os agnostic manner. It is handy if all team members use Dropbox or similar cloud service, the absolut path can be constructed utilizing a soft-coded approach; constructing the path by detecting home directory with `pinkpatheR()` and bulding the constant parts of the path on top using `paste0()`.
+A single-function R package 📦, for retrieving the absolut path to home directory, in a user agnostic, os agnostic manner. 
+It is handy if all team members use __Dropbox__ or similar cloud service;
+the absolut path can be constructed utilizing a soft-coded approach; 
+constructing the path by detecting home directory with `pinkpatheR()` and bulding the constant parts of the path on top using `paste0()`.
 
 Installation
 ------------
