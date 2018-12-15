@@ -3,15 +3,15 @@
 pinkpatheR
 ==========
 
-A single-function R package 📦, 
-for user agnostic, os agnostic retrieval 
-of the absolut path to home directory.
+A single-function R package 📦, <br>
+for user agnostic, os agnostic retrieval  <br>
+of the absolut path to home directory.  <br>
 
 It is handy if all team members use __Dropbox__ or similar cloud service; <br>
 the absolut path then in shared team scripts <br> 
 can be constructed utilizing a soft-coded approach: 
-constructing the path by detecting home directory with `pinkpatheR()` 
-and bulding the constant parts of the path on top using `paste0()`.
+constructing the path by detecting home directory with `pinkpatheR()`  <br>
+and bulding the constant parts of the path on top using `paste0()`.  <br>
 
 Installation
 ------------
@@ -38,9 +38,7 @@ Check using `goodpractice::gp()` if the package is ok-ish, only warnings so good
 ``` r
 goodpractice::gp("pinkpatheR")
 ```
-It will work for the most part - some itchy bugs may kick in but oh well! First ever R package success, I'll call it.
-
-
-Useful for the peeps that do like absolut filepaths, but not hardcoded with the user's machine + name in the string.
-If you like the dotted notation for relevant position, mhh O_o
+Useful for the peeps that do like absolut filepaths, <br>
+but not hardcoded with the user's machine + name in the string.  <br>
+If you like the dotted notation for relevant position, mhh O_o  <br>
 
