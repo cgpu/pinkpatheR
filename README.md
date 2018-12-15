@@ -7,8 +7,8 @@ A single-function R package 📦,
 for user agnostic, os agnostic retrieval 
 of the absolut path to home directory.
 
-It is handy if all team members use __Dropbox__ or similar cloud service;
-the absolut path then in shared team scripts 
+It is handy if all team members use __Dropbox__ or similar cloud service; <br>
+the absolut path then in shared team scripts <br> 
 can be constructed utilizing a soft-coded approach: 
 constructing the path by detecting home directory with `pinkpatheR()` 
 and bulding the constant parts of the path on top using `paste0()`.
