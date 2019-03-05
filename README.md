@@ -42,3 +42,10 @@ Useful for the peeps that do like absolut filepaths, <br>
 but not hardcoded with the user's machine + name in the string.  <br>
 If you like the dotted notation for relevant position, mhh O_o  <br>
 
+
+### ToDo
+
+- [ ] Add functions for wrapping `here::here`
+- [ ] Pretty-fy README
+- [ ] Add versioning with GitHub Releases
+
